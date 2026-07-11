@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/api/v1/Search.php", "destination": "/api/search" },
+    { "source": "/api/v1/Play.php", "destination": "/api/play" }
+  ],
+  "functions": {
+    "api/play.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    },
+    "api/search.js": {
+      "maxDuration": 15
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "onlinemusic-vercel-api",
+  "version": "1.0.0",
+  "description": "YouTube search & audio streaming API for SA-MP OnlineMusic.inc, deployable on Vercel",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "youtube-sr": "^4.3.11",
+    "@distube/ytdl-core": "^4.14.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
